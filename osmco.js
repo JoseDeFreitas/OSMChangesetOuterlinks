@@ -16,6 +16,7 @@ const changesetID = titleContent.replace(/^Changeset:\s*/, '');
 // Generate outerlinks
 
 const outerlinksDiv = document.createElement('div');
+outerlinksDiv.style.marginTop = '0.1em';
 outerlinksDiv.style.marginBottom = '-0.3em';
 
 const osmchaLink = document.createElement('a');
