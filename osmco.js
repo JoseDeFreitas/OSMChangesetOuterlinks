@@ -22,6 +22,7 @@ outerlinksDiv.style.marginBottom = '-0.3em';
 const osmchaLink = document.createElement('a');
 osmchaLink.href = `https://osmcha.org/changesets/${changesetID}`;
 osmchaLink.textContent = 'osmcha';
+osmchaLink.target = '_blank';
 osmchaLink.style.fontSize = '0.6em';
 osmchaLink.style.verticalAlign = 'top';
 osmchaLink.style.marginRight = '0.4em';
@@ -29,6 +30,7 @@ osmchaLink.style.marginRight = '0.4em';
 const achaviLink = document.createElement('a');
 achaviLink.href = `https://overpass-api.de/achavi/?changeset=${changesetID}`;
 achaviLink.textContent = 'achavi';
+achaviLink.target = '_blank';
 achaviLink.style.fontSize = '0.6em';
 achaviLink.style.verticalAlign = 'top';
 
